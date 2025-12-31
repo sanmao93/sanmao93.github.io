@@ -3,40 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>我的页面</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-            min-height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-        }
-        .container {
-            text-align: center;
-            color: white;
-            padding: 2rem;
-        }
-        h1 {
-            font-size: 3rem;
-            margin-bottom: 1rem;
-        }
-        p {
-            font-size: 1.2rem;
-            opacity: 0.9;
-        }
-    </style>
+    <title>Sanmao93 - 笔记</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.7.0/style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <h1>欢迎</h1>
-        <p>这是你的起始页面</p>
-    </div>
+    <nav>
+        <a href="#" class="nav-brand">
+            <span>📚</span>
+            <span>Sanmao93</span>
+        </a>
+        <div class="nav-links">
+            <a href="https://github.com/sanmao93" target="_blank">GitHub</a>
+        </div>
+    </nav>
+
+    <div class="bg-glow"></div>
+
+    <main class="container">
+        <div class="card-grid" id="card-grid"></div>
+    </main>
+    <button class="back-to-top" id="back-to-top" title="回到顶部">↑</button>
+
+    <script src="app.js"></script>
 </body>
 </html>
