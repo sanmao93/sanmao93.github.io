@@ -117,6 +117,15 @@ const notes = [
         tags: ["Kotlin", "编程"]
     },
     {
+        id: "docker-ip-forward",
+        icon: "🐳",
+        title: "Docker ip_forward",
+        desc: "Docker 网络转发配置",
+        url: "https://www.notion.so/Docker-ip_forward-cad5317f821042f7b27679030a9c6135",
+        date: "2025-05-16",
+        tags: ["Docker", "运维"]
+    },
+    {
         id: "java-notebook",
         icon: "📓",
         title: "Java Notebook",
@@ -153,6 +162,15 @@ const notes = [
         tags: ["linux", "工具"]
     },
     {
+        id: "colab",
+        icon: "🔬",
+        title: "Colab",
+        desc: "Google Colab 使用笔记",
+        url: "https://www.notion.so/Colab-2315245d192f80ae8608d42ac7ca37fe",
+        date: "2025-07-06",
+        tags: ["AI", "工具"]
+    },
+    {
         id: "rwlock",
         icon: "🔐",
         title: "理解读写锁",
@@ -169,6 +187,15 @@ const notes = [
         url: "https://www.notion.so/HashMap-68516209c81c4432b8106107b866838c",
         date: "2024-11-30",
         tags: ["数据结构", "Java"]
+    },
+    {
+        id: "online-monitor",
+        icon: "📡",
+        title: "在线监测",
+        desc: "服务器在线测试",
+        url: "https://www.notion.so/22d5245d192f80e6bab3e8fc126a9200",
+        date: "2024-12-11",
+        tags: ["运维", "工具"]
     },
     {
         id: "btree",
